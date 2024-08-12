@@ -23,7 +23,11 @@ namespace WebApplication1.Controllers
             return View();
 
         }
+        public IActionResult Get()
+        {
+            throw new NotImplementedException();    
 
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

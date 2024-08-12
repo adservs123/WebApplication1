@@ -1,9 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/b9c54b7f-90c1-4aaf-aa21-56e6e184b677/resourceGroups/sourabhgithub_group/providers/microsoft.insights/components/WebApplication1</ApplicationInsightsResourceId>
+    <UserSecretsId>51f36d97-0d1b-4c8f-8257-452db5edaf34</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
